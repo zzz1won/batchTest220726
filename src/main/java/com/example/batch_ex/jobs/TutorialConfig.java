@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @RequiredArgsConstructor
 public class TutorialConfig {
+    //좀 옛날 방식이라고 하시는군!
 
     private final JobBuilderFactory jobBuilderFactory; //Job Builder 생성용
     private final StepBuilderFactory stepBuilderFactory; //Step Builder 생성용
@@ -31,4 +32,5 @@ public class TutorialConfig {
                 .build();
     }
 
+    //job과 step은 뭘 하는 앤가...
 }
